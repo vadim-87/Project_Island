@@ -5,6 +5,7 @@ public class Eagle extends Predator{
 //        super(name);
 //    }
 
+
     @Override
     public void moving() {
 

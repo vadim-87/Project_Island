@@ -1,6 +1,6 @@
 package org.example.zoo;
 
-public abstract class Animal {
+public abstract class Animal implements Move{
    private String name;
 
 //    public Animal(String name) {
