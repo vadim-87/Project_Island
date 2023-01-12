@@ -1,7 +1,11 @@
 package org.example;
 
+import org.example.resources.Animal;
+import org.example.resources.Predator;
+import org.example.resources.Wolf;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Animal wolf = new Wolf("Vovchik");
     }
 }

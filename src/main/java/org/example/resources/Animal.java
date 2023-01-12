@@ -1,6 +1,11 @@
 package org.example.resources;
 
 public abstract class Animal {
-    String name;
-    public abstract void mooving ();
+   private String name;
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public abstract void moving ();
 }
