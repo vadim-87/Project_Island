@@ -1,8 +1,5 @@
 package org.example.zoo;
 
-public abstract class Predator extends Animal{
+public abstract class Predator implements Animal, Eatable {
 
-//    public Predator(String name) {
-//        super(name);
-//    }
 }

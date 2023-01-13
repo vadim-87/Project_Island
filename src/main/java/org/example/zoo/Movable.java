@@ -1,5 +1,5 @@
 package org.example.zoo;
 
-public interface Move {
+public interface Movable {
     void moving();
 }

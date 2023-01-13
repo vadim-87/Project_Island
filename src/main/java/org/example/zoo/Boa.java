@@ -1,9 +1,16 @@
 package org.example.zoo;
 
 public class Boa extends Predator{
-//    public Boa(String name) {
-//        super(name);
-//    }
+
+    @Override
+    public void die() {
+
+    }
+
+    @Override
+    public void eat() {
+
+    }
 
     @Override
     public void moving() {
@@ -11,7 +18,7 @@ public class Boa extends Predator{
     }
 
     @Override
-    public void eat(Animal animal, boolean b) {
+    public void reproduce() {
 
     }
 }
