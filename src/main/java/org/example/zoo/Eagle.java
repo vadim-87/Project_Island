@@ -8,10 +8,6 @@ public class Eagle extends Predator{
 
     }
 
-    @Override
-    public void eat() {
-
-    }
 
     @Override
     public void moving() {
@@ -20,6 +16,11 @@ public class Eagle extends Predator{
 
     @Override
     public void reproduce() {
+
+    }
+
+    @Override
+    void eat() {
 
     }
 }

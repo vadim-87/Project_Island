@@ -1,5 +1,12 @@
 package org.example.zoo;
 
-public abstract class Predator implements Animal, Eatable {
+import org.example.island.Cell;
+
+public abstract class Predator implements Animal {
+    Cell position;
+    int coordinatesX;
+    abstract void eat();
+
+
 
 }
