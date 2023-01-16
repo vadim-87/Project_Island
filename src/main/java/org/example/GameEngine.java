@@ -3,7 +3,10 @@ package org.example;
 public class GameEngine {
     private static final int delay = 2000;
 
-    void start(GameModel islandGame){
+
+
+
+   public void start(Game islandGame){
             while (true){
                 islandGame.nextDay();
                 try {

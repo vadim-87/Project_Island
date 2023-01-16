@@ -1,7 +1,7 @@
 package org.example.zoo;
 
 public class Boa extends Predator{
-
+    private final int WEIGHT = 15;
     @Override
     public void die() {
 

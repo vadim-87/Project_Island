@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.zoo.Animal;
+import org.example.zoo.Wolf;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
@@ -9,6 +12,7 @@ public class Main {
         int ran = ThreadLocalRandom.current().nextInt(0, PERCENT);
         boolean i = (PERCENT - chance) < ran;
 
-
+        Game game = new Game();
+        game.printAllAnimals();
     }
 }
